@@ -1,0 +1,583 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*  start style for set white color for background section */
+.About_us,.Projects,.pricing_plan,.Blog,.QNB,.ourTeam,.error-section
+,.contact_us,.privacy-page,.project_sample,.Details_for_projects
+,.Details2_for_projects,.team_member,.team_bio,.blog_cards
+,.testimoinals,.blog_details,.cards-for-service{
+  background-color: white;
+}
+/*  start style for set navy blue color for background section */
+.Our_services{
+  background-color:#20272d ;
+}
+
+/*  start style for set gray color for background section */
+.bg-gray{
+  background-color: #f2f2f2;
+  border-radius: 24px;
+}
+/*  start style for set dark gray color for background section */
+.bg-darkGray{
+  background-color: #21262a;
+}
+.darkGray{
+    color: #21262a;
+
+}
+.bg-darkGray-rounded{
+  background-color: #21262a;
+  border-radius: 7px;
+}
+/*  end style for set dark gray color for background section */
+/* ____________________________________________________________ */
+.Our_services_cards {
+margin-top: 50px;
+background-color: #3f484f;
+border-radius: 20px;
+width: 95%;
+overflow: hidden;
+}
+/* set font size  */
+.fs-9{
+  font-size: 12px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-7{
+  font-size: 6px
+}
+.display-6{
+  font-size: 26px !important;
+}
+.font_small{
+  font-size: smaller;
+}
+/* _________________ */
+
+hr {
+    border: 0;                /* 1. تصفير الحواف الافتراضية تماماً لقتل الظل القديم */
+    height: 1px;             /* 2. جعل سمك الخط رفيعاً جداً ودقيقاً (شعرة) */
+    background-color: #e0e0e0;/* 3. اختيار لون رمادي هادئ وناعم (أو لون يتناسب مع هويتكِ) */
+    opacity: 1;               /* 4. إجبار البوتستراب على إظهار اللون بكامل قوته بدون شفافية باهتة */
+    margin: 1rem 0;          /* 5. مسافة تنفس متوازنة فوق وتحت الخط */
+}
+
+/* start style for navbar */
+.navbar{
+  border-radius: 90px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding-top: 0 ;
+  padding-bottom: 0 ;
+}
+
+ul li a {
+  color: black ;
+}
+
+/* start style for abstract lines bg */
+.hero-section,.Why_choose_us,.pricing_plan_in_services {
+  background-image: url('./images/Q1.png');
+  background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+  padding: 140px 0; 
+
+}
+/* ___________________________________________________ */
+/* start style for button on hero tag */
+.hero-tag {
+    font-size: 14px; /* الحجم المثالي للـ Tags الفاخرة في المواقع */
+    letter-spacing: 0.5px; /* تباعد خفيف بين الحروف يعطي طابعاً مودرن */
+    border-radius: 50px; 
+    border: 1px solid #e2e8f0; 
+    background-color: rgba(255, 255, 255, 0.5); 
+
+}
+.Man_in_first_page {
+  width: 700px;
+}
+/* start style for roting-badge */
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+/* 2. تطبيق الحركة على كلاس الشعار */
+.rotating-badge {
+    animation: spinAround 15s linear infinite;
+    transform-origin: center center; 
+    display: block;
+}
+/* 3. تنسيق إضافي لضبط مكان حاوية الدائرة */
+.hero-badge-wrapper {
+    top: -100px ; 
+    left: 60px ;
+}
+/* ___________________________________________________ */
+/* start style for button */
+.btn{
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    border-style: solid;          /* نوع الإطار: خط صلب متصل */
+    border-color: #cfcfcf;
+    height: fit-content;
+}
+.btn-primary{
+  color: white;
+  background-color: #070722;
+}
+.btn-primary-white{
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+.btn-primary-white:hover{
+  color: white;
+  background-color: #070722;
+  border-color: transparent;
+}
+.btn-primary:hover{
+  background-color: white;
+  color: black;
+    border-color: transparent;
+
+
+}
+.circle_arrow{
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 50%; /* لجعلها دائرية تماماً */
+  font-size: 1rem;
+    align-items: center;
+  justify-content: center;
+  
+}
+.white_circle_arrow{
+    display: inline-flex;
+  width: 20px;
+  height: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%; /* لجعلها دائرية تماماً */
+  font-size: 1rem;
+    align-items: center;
+  justify-content: center;
+}
+.icon-size{
+  font-size: xx-large;
+  font-weight: 900;
+  background-color: white;
+  border-radius: 7px;
+  padding: 7px;
+}
+.card{
+width: 100%; /* Ctrl + T (Free Transform)*/
+overflow: hidden; /*(Layer Mask)*/
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+background-color: #f2f2f2;
+}
+.card .card_img,
+.card .testi_img{
+  height: 300px;     /* 👈 ثبتي الارتفاع الذي يناسب تصميمك (مثلاً 220px أو 250px) */
+  width: 100%;       /*Ctrl + T (Free Transform)*/
+  object-fit: cover; /* الضغط على زر Shift تعادل اثناء التكبير */
+  object-position: center; /* لضمان أن التركيز يكون على منتصف الصورة دائماً عند القص */  
+}
+.card-body {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: black;
+}
+/* ضبط الحالة الافتراضية للطبقة الزرقاء: مخفية وبخلفيتكِ الفخمة */
+.card-overlay {
+    background-color: rgba(14, 21, 31, 0.489); /* لونكِ الأزرق الداكن مع الشفافية */
+    opacity: 0; /* مخفية تماماً في البداية */
+    transition: opacity 0.4s ease; /* نعومة فائقة مدتها 0.4 ثانية عند الظهور */
+}
+.card-overlay-linear {
+    opacity: 0; /* مخفية تماماً في البداية */
+    transition: opacity 0.4s ease; /* نعومة فائقة مدتها 0.4 ثانية عند الظهور */
+background: linear-gradient(
+        to bottom, 
+        rgba(14, 21, 31, 0.2) 0%,    /* 1. البداية من الأعلى: أوباستي خفيفة جداً (20%) */
+        rgba(14, 21, 31, 0.6) 50%,   /* 2. في المنتصف: أوباستي متوسطة (60%) */
+        rgba(14, 21, 31, 0.95) 100%  /* 3. في القاع عند الأسماء: أوباستي ثقيلة وشبه مصمتة (95%) */
+    );}
+/* 🌟 مفتاح السحر: عند الاقتراب (Hover) من الكارت، اجعل الطبقة تظهر */
+.card:hover .card-overlay,
+.card:hover .card-overlay-linear
+ {
+    opacity: 1; /* تظهر الطبقة بالكامل فوق الصورة */
+}
+/* start style for footer */
+.footer{
+  background-color: #1c2125;
+}
+.footer .nav-link{
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer p{
+  font-size: 12px;
+  font-weight: 600;
+}
+.social-icon {
+    width: 35px;
+    height: 35px;
+    background-color:#1d2538; /* اللون الافتراضي في صورتك */
+    color: rgb(255, 255, 255);            /* لون الأيقونة */
+    border-radius: 50%;      /* لجعلها دائرية تماماً */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease; /* لجعل الحركة ناعمة */
+    margin-left: 30px;
+    margin-top: -150px;
+}
+.social-icon:hover {
+    background-color: #ffffff; /* اللون الأصفر الذي تستخدمينه في مشروعك */
+    color: #1d2538;              /* يتغير لون الأيقونة للأبيض */
+    transform: translateY(-5px); /* ترتفع للأعلى قليلاً (اختياري) */
+}
+/* start style for testimoinals */
+.sub_card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom:16px;
+}
+.sub_card_2{
+  background-color: #1d2538;
+  border-radius: 10px;
+  padding: 5px;
+  padding-bottom:16px;
+}
+.check_in_cards{
+  color: rgb(0, 0, 0);
+  width: 25px;
+  height: 25px;
+  border: 1.5px solid #d1d5db; /* الـ Stroke الخارجي بنعومة (1.5px) */
+  border-radius: 50%;          /* دائرة مثالية */
+  margin-right: 12px;
+}
+.bi-plus{
+  font-size: x-large;
+  font-weight: 600;
+}
+.quote-bootstrap-icon {
+  font-size: 50px;
+}
+
+
+.bi-chevron-down{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  transition: all 0.3s ease; /* لجعل الحركة ناعمة */
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.answer{
+  background-color: #070722;
+  color: white;
+  border-radius:10px;
+}
+/* start style for vertical card and text */
+.vertical_card{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+}
+.vertical-text{
+  writing-mode: vertical-lr; /* جعل اتجاه الكتابة من أعلى لأسفل رأسيًا */
+    transform: rotate(180deg); /* تدويره 180 درجة ليصبح مقروءًا من الأسفل للأعلى بالظبط كالصورة */
+}
+.bi-gear{
+   /* mt-2 bg-dark p-2 rounded-2 mb-4 */
+   background-color: #20272d;
+   padding: 10px;
+   border-radius: 10px;
+
+}
+
+/* تأثير الـ Hover عند تمرير الماوس */
+.vertical_card:hover {
+    transform: translateY(-5px); /* حركة صعود خفيفة للأعلى */
+    border-color: #ffffff;
+}
+
+.multi-collapse {
+    transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1) ;
+}
+
+/* للتأكد من أن العناصر تختفي بنعومة (Fade) أثناء الإحلال */
+.multi-collapse.collapsing {
+    opacity: 0.5;
+}
+/* ____________________________________________________________________________________ */
+/* start style for about_us.html section at the first pages */
+.hero_section,.error_section,.contact_section,.privacy_section,.about_section
+,.FAQ_section,.project_section,.project_section,.project_details_section
+,.team_section ,.team_details_section,.blog_section,.blog_details_section
+,.pricing_plan_section,.service_section,.service_details_section{
+  background-image: linear-gradient(rgba(24, 43, 69, 0.753)) ,url(./images/2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 350px;
+  overflow: hidden; /*(Layer Mask)*/
+  padding-top: 220px;
+
+}
+
+body.index-page .navbar-scrolled .nav-link,
+body.index-page .navbar-scrolled .dropdown-toggle {
+    color: #070722 !important; 
+}
+
+/* 🌟 اختياري: لو عايز تغير لون الروابط في الإندكس قبل السكرول (وهي فوق خالص) */
+body.index-page #main-navbar .nav-link,
+body.index-page #main-navbar .dropdown-toggle {
+    color: #333333 !important; /* 👈 اللون وهي في الوضع العادي قبل السكرول */
+}
+
+
+
+/* تأثير الـ Hover على الروابط في الوضع الكحلي */
+.navbar-scrolled .nav-link:hover,
+.navbar-scrolled .dropdown-toggle:hover {
+    color: #0d6efd ; /* تضيء بالأزرق عند مرور الماوس */
+}
+/* 🌟 استهداف اللوجو داخل صفحة الأبوت فقط */
+/* طبق الفلتر السحري على اللوجو والصور في أي مكان ما عدا لو كان الأب هو index-page */
+body:not(.index-page) #main-navbar .navbar-brand img,
+body:not(.index-page) #main-navbar img {
+    filter: brightness(0) invert(1);
+}
+
+________________________________________________________
+
+
+
+
+/* ساتهداف التوجلر  */
+.about-page #main-navbar .navbar-toggler,
+.error-page #main-navbar .navbar-toggler,
+.contact-page #main-navbar .navbar-toggler,
+.privacy-page #main-navbar .navbar-toggler,
+.FAQ-page #main-navbar .navbar-toggler,
+.project-page #main-navbar .navbar-toggler,
+.project-details-page #main-navbar .navbar-toggler,
+.team-page #main-navbar .navbar-toggler,
+.team-details-page #main-navbar .navbar-toggler,
+.blog-page #main-navbar .navbar-toggler,
+.blog-details-page #main-navbar .navbar-toggler,
+.pricing-page #main-navbar .navbar-toggler,
+.service-page #main-navbar .navbar-toggler,
+.service-details-page #main-navbar .navbar-toggler
+ {
+    display: none ;
+}
+
+/* __________________________________ */
+/* start style for out company */
+.ourCompany{
+  background-color: white;
+  overflow: hidden;
+}
+/* _____________________________________________ */
+/* start style for logo_wrapper */
+/*  الطبقه الخارجيه نافذة المشاهده تعمل كماسك او نافذه صغيره نرى من خلالها   */
+.logos-wrapper {
+  overflow: hidden; 
+  padding: 20px 0;
+  display: flex;
+}
+/* االعربة الأمامية الكبيرة (المحرك)  الطبقه الوسطي */
+.logos-track {
+  display: flex;
+  animation: scroll 20s linear infinite; /* 20 ثانية هي سرعة الدوران */
+}
+/* الطبقة الداخلية عربات القطار */
+.logo-item {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-item img {
+  height: 40px; /* تحكم في حجم الشعارات من هنا */
+  filter: grayscale(100%) opacity(70%); /* يجعلها رمادية وباهتة كما في الصورة */
+}
+/* قاعدة الحركة للوجو: تحريك الشريط لليسار بمقدار نصف طوله الإجمالي */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 5)); } /* يتحرك بمقدار النسخة الأولى فقط */
+}
+
+   /* الحالات الافتراضية المستقرة (تمنع القفز والوميض قبل الحركات)
+   ========================================================================== */ */
+.slide-down-container,
+.slide-up-container,
+.pop-in-container {
+    opacity: 0; /* تبدأ مخفية تماماً لمنع ومضة التحميل */
+    visibility: hidden;
+    /* إضافة transition تضمن أنه حتى لو حُذف الكلاس أو أُضيف، ستكون الحركة انسيابية وليست قفزة مفاجئة */
+    transition: opacity 0.5s ease, visibility 0.5s ease; 
+}
+
+.pop-in-container {
+    transform-origin: center center; 
+}
+
+/* ==========================================================================
+   1. حركة الظهور من الأعلى إلى الأسفل (Slide In From Top)
+   ========================================================================== */
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px); /* تغيير من الموجب للسالب لتهبط فعلياً من الأعلى */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-down-container.active {
+    visibility: visible;
+    opacity: 1;
+    animation: slideInFromTop 1.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    animation-delay: 0.05s;
+}
+
+/* ==========================================================================
+   2. حركة الظهور من الأسفل إلى الأعلى (Slide In From Bottom)
+   ========================================================================== */
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(50px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-up-container.active {
+    visibility: visible;
+    opacity: 1;
+    animation: slideInFromBottom 1.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    animation-delay: 0.05s;
+}
+
+/* ==========================================================================
+   3. تأثير الانبثاق للخارج من المركز (Pop In Effect)
+   ========================================================================== */
+@keyframes scalePopIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8); /* الانطلاق من 0.8 أنعم بكثير للعين من 0 ويمنع الرعشة */
+    }
+    to {
+        opacity: 1;
+        transform: scale(1); 
+    }
+}
+
+.pop-in-container.active {
+    visibility: visible;
+    opacity: 1;
+    animation: scalePopIn 1.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+    animation-delay: 0.05s;
+}
+/* _____________________________________________________ */
+
+
+/* استهداف اليوتن في النافبار */
+#main-navbar .btn {
+    background-color: #ffffff !important;
+    color: #070722 !important;
+    transition: all 0.3s ease !important; 
+    border-radius: 20px !important;  
+}
+
+/* تأثير الهوفر للزرار */
+#main-navbar .btn:hover {
+    background-color: #070722 !important; 
+    color: #ffffff !important;
+}
+
+/* 🌟 تحويل كل نصوص وروابط النافبار للون الأبيض في كل الموقع */
+#main-navbar .nav-link {
+    color: #ffffff !important; 
+}
+
+/* تأثير الهوفر على الروابط (اختياري لو تحب يقلب رمادي خفيف عند الوقوف عليه) */
+#main-navbar .nav-link:hover {
+    color: #dddddd !important;
+}
+
+/* 🌟 الضربة القاضية لتبييض روابط النافبار في الصفحات الداخلية */
+#main-navbar .navbar-nav .nav-link,
+#main-navbar .navbar-nav .dropdown-toggle,
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-toggle {
+    color: #ffffff !important;
+}
+
+
+/* 🌟 الوضع الافتراضي للنافبار (شفاف في أول الصفحة) */
+.navbar {
+    background-color: transparent !important; /* شفاف */
+    transition: background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out; /* حركة ناعمة أثناء اللف */
+}
+
+/* 🌟 الوضع الجديد لما تنزل تحت (يقلب كحلي) */
+.navbar.navbar-scrolled {
+    background-color: #070722 !important; /* اللون الكحلي الداكن بتاعك */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* ضل خفيف يفرق النافبار عن المحتوى اللي تحته */
+}
+
+/* 🌟 1. الوضع الافتراضي: النافبار شفاف في كل الصفحات ما عدا الإندكس */
+body:not(.index-page) .navbar {
+    background-color: transparent !important; /* شفاف في الصفحات الداخلية فقط */
+    transition: background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+/* 🌟 2. وضع السكرول: يقلب كحلي في كل الصفحات ما عدا الإندكس */
+body:not(.index-page) .navbar.navbar-scrolled {
+    background-color: #070722 !important; /* الكحلي الداكن بتاعك */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* 🌟 3. تخصيص صفحة الإندكس لوحدها (لو عايزها دايماً كحلي وثابتة من البداية بدون حركة) */
+body.index-page .navbar {
+    background-color: #ffffff !important; /* كحلي ثابت مش شفاف */
+}
+

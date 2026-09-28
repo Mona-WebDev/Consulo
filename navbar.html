@@ -1,0 +1,109 @@
+<nav class="navbar navbar-light fixed-top shadow-sm navbar-expand-md" id="mainNavbar">
+    <div class="container">
+        
+        <a href="index.html"><img src="../images/logo_2.png" width="180" alt="logo"></a>
+
+        <div class="navbar navbar-expand d-none d-lg-block">
+            <ul class="navbar-nav ms-auto pb-2">
+                <li class="nav-item">
+                    <a class="nav-link list_for_nav" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link list_for_nav" href="02-about.html">About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link list_for_nav" href="../03-Serevices/services.html">Services</a>
+                </li>
+                
+                <li class="nav-item dropdown position-static"> 
+                    <a class="nav-link dropdown-toggle list_for_nav" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-center border-0 shadow rounded-3 p-4" aria-labelledby="pagesDropdown" style="min-width: 500px;">
+                        <li>
+                            <div class="d-flex justify-content-between gap-5">
+                                <div class="flex-fill">
+                                    <p class="small text-uppercase fw-bold text-muted px-3 mb-2">Service Pages</p>
+                                    <ul class="list-unstyled">
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../03-Serevices/services.html">Services</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../03-Serevices/service-details.html">Services Details</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="06-Pricing.html">Pricing Plan</a></li>
+                                    </ul>
+                                    <p class="small text-uppercase fw-bold text-muted px-3 mt-3 mb-2">Other Pages</p>
+                                    <ul class="list-unstyled">
+                                        <li><a class="dropdown-item py-2 rounded-2" href="02-about.html">About Us</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="09-contact.html">Contact Us</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="07-FAQ.html">FAQ</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="10-error304.html">404 Page</a></li>
+                                    </ul>
+                                </div>
+                                <div class="flex-fill">
+                                    <p class="small text-uppercase fw-bold text-muted px-3 mb-2">Blog Pages</p>
+                                    <ul class="list-unstyled">
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../08-Blogs/blog.html">Blog</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../08-Blogs/blog_detalis.html">Blog Details</a></li>
+                                    </ul>
+                                    <p class="small text-uppercase fw-bold text-muted px-3 mt-3 mb-2">Projects</p>
+                                    <ul class="list-unstyled">
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../04-Projects/Projects.html">Project</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../04-Projects/projects-details.html">Project Details</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../05-Teams/Team.html">Our Team</a></li>
+                                        <li><a class="dropdown-item py-2 rounded-2" href="../05-Teams/Team_details.html">Team Details</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link list_for_nav" href="06-Pricing.html">Pricing</a>
+                </li>
+                
+                <li class="nav-item dropdown"> 
+                    <a class="nav-link dropdown-toggle list_for_nav" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Blog
+                    </a>
+                    <ul class="dropdown-menu border-0 shadow-sm rounded-3" aria-labelledby="blogDropdown">
+                        <li><a class="dropdown-item py-2" href="08-Blogs/blog.html">Blog</a></li>
+                        <li><a class="dropdown-item py-2" href="08-Blogs/blog_detalis.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link list_for_nav" href="09-contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <button type="button" class="btn btn-primary gap-2 ms-5">
+            <span class="circle_arrow"><i class="bi bi-arrow-up-right px-1"></i></span> login
+        </button>    
+
+        <button class="navbar-toggler navbar-expand-sm" type="button" data-bs-target="#mySidebar" data-bs-toggle="offcanvas">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="mySidebar" aria-labelledby="mySidebarLabel">
+            <div class="offcanvas-header">
+                <a class="logo py-2 px-2" href=""><img src="images/logo_2.png" width="180" alt="logo"></a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <hr class="text-secondary opacity-25 my-2">
+            <div class="offcanvas-menu">
+                <h5 class="offcanvas-title" id="mySidebarLabel">Menu</h5>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav flex-column fs-5 fw-bold">
+                    <p class="text-secondary">Our Services</p>
+                    <li class="nav-item mb-2"><a class="nav-link" href="10-error304.html">Launch with Consulo</a></li>
+                    <li class="nav-item mb-2"><a class="nav-link" href="10-error304.html">Migrate to Consulo</a></li>
+                    <li class="nav-item mb-2"><a class="nav-link" href="10-error304.html">Partner Services</a></li>
+                    <li class="nav-item mb-2"><a class="nav-link" href="10-error304.html">Professional Services</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</nav>
