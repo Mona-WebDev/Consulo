@@ -22,8 +22,8 @@ async function loadComponent(elementId, filePath) {
 document.addEventListener("DOMContentLoaded", async function () {
     // 1. استدعاء مطلق وثابت من الـ Root مباشرة لـ Netlify
     await Promise.all([
-        loadComponent('main-navbar', '/navbar.html'),
-        loadComponent('main-footer', '/footer.html')
+        loadComponent('main-navbar', 'navbar.html'),
+        loadComponent('main-footer', 'footer.html')
     ]);
 
     // 2. تفعيل قوائم البوتستراب المنسدلة (Dropdowns) بعد الحقن
